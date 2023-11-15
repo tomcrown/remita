@@ -78,3 +78,17 @@ a{
 .btn--secondary:hover{
     background-color: #d0d0d3;
 }
+
+/* Icons */
+.icon{
+    font-size: 3rem;
+    
+}
+
+.icon--white{
+    color: white;
+}
+
+.icon--black{
+    color: var(--color-headings);
+}
