@@ -11,10 +11,10 @@ html{
 }
 
 body{
-    font-family: 'Raleway', sans-serif;
     color: var(--color-body);
-    line-height: 1.5;
+    font-family: 'Raleway', sans-serif;
     font-size: 2rem;
+    line-height: 1.5;
 }
 /* Typography */
 h1, h2, h3{
@@ -36,4 +36,45 @@ h3{
 
 p{
     margin-top: 0;
+}
+
+/* Button */
+.btn{
+    border-radius: 40px;
+    border: 0;
+    cursor: pointer;
+    margin: 2rem;
+    padding: 2rem 5rem;
+    white-space: nowrap;
+    transition: all .3s;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn--primary{
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.btn--secondary{
+    background-color: var(--color-secondary);
+    color: var(--color-headings);
+}
+
+.btn--bold{
+    font-weight: 700;
+}
+
+.btn--stretched{
+   padding: 2rem 18rem;   
+}
+
+.btn--primary:hover{
+    background-color: #b54012;
+}
+
+.btn--secondary:hover{
+    background-color: #d0d0d3;
 }
