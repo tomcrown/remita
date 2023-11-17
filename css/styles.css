@@ -135,3 +135,12 @@ a{
 .link:hover{
     color: darkblue;
 }
+
+/* Grids */
+.grid{
+    display: grid;
+}
+
+.grid--1x2{
+    grid-template-columns: 1fr 1fr;
+}
