@@ -92,3 +92,34 @@ a{
 .icon--black{
     color: var(--color-headings);
 }
+
+/* inputs */
+.input{
+    border-radius: 30px;
+    font-size: 1.5rem;
+    margin: 3rem;
+    outline: 0;
+    width: 50rem;
+    padding: 1.2rem 3rem;
+    
+}
+
+.input--primary{
+    border: 1.5px solid lightgray;
+    color: var(--color-body);
+    transition: border .2s, box-shadow .2s;
+    text-align: center;
+}
+
+.input--primary:focus{
+    border: 2.5px solid pink;
+    box-shadow: 0 0 13px pink;
+}
+
+.input--secondary{
+  border: 1.5px solid lightgrey; 
+}
+
+.input--secondary::placeholder{
+    color: grey;
+}
